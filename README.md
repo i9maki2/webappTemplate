@@ -41,3 +41,14 @@ grunt build
 ```
 
 Files will be generated on `client/dist`
+
+##API
+
+`GET http://localhost:3000/api/orders`
+Returns JSON with all the orders
+
+`GET http://localhost:3000/api/orders/:id`
+Returns JSON with one order
+
+`POST http://localhost:3000/api/orders`
+Inserts a new order in DB
